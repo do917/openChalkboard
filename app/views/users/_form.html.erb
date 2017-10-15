@@ -1,0 +1,6 @@
+<%= form_with scope: :user, url: users_path, local: true do |form| %>
+  <div class="form">
+    <%= form.text_field :username, class: 'field' %><br>
+    <%= form.submit class: 'button' %>
+  </div>
+<% end %>

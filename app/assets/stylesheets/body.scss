@@ -1,0 +1,23 @@
+$primary-black: #383838;
+$primary-gray: #dddddd;
+$primary-white: #f7f7f7;
+$primary-font: 'Helvetica Neue';
+$primary-green: #f2fff6;
+
+$fontsize-medium: 100px;
+
+body {
+  
+  height: 100vh;
+  font-family: $primary-font;
+  background-color: $primary-white;
+  
+  display: grid;
+  grid-template-columns: auto;
+  grid-template-rows: 200px auto 100px;
+  grid-template-areas:
+    "header"
+    "body"
+    "footer";
+
+}

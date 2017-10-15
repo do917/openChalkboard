@@ -1,0 +1,16 @@
+@import "body";
+
+.footer {
+  grid-area: footer;
+
+
+  background-color: $primary-gray;
+  color: $primary-black;
+  font-weight: bold;
+  font-size: 15px;
+  text-align: center;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

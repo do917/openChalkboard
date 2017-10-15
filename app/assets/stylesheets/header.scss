@@ -1,0 +1,14 @@
+@import "body";
+
+.header {
+  grid-area: header;
+
+  background-color: $primary-gray;
+  color: $primary-black;
+  font-weight: bold;
+  font-size: 120px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

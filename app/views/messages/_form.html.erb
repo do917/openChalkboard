@@ -1,0 +1,5 @@
+<%= form_with(model: [ @user, @user.messages.build ]) do |form| %>
+  <div>
+    <%= form.text_field :text, class: 'field', placeholder: 'your message...' %>
+  </div>
+<% end %>
